@@ -1,11 +1,13 @@
 cask "fermata" do
-  version "0.1.1"
-  sha256 "66257e4900d5675b1a9bb5f88b9496c6dfa3b26481fc631c511bc129f5877518"
+  version "0.2.0"
+  sha256 "9ce718396dbddd28926bc66b9b6d87558cbb699bcdaaa2cfac98c50dc54c7335"
 
-  url "https://github.com/matthew-fernando/Fermata/releases/download/v0.1.1/Fermata_0.1.1_universal.dmg"
+  url "https://github.com/matthew-fernando/Fermata/releases/download/v#{version}/Fermata_#{version}_universal.dmg"
   name "Fermata"
   desc "Menu bar break timer that earns break time as you work"
   homepage "https://github.com/matthew-fernando/Fermata"
+
+  auto_updates true
 
   app "Fermata.app"
 
